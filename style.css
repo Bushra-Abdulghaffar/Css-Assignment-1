@@ -1,0 +1,647 @@
+@font-face {
+    font-family: "Saira-ExtraBold";
+    src: url(./Assets/fonts/SairaExtraCondensed-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Saira-Bold";
+    src: url(./Assets/fonts/SairaExtraCondensed-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "SairaExtraCondensed-Regular";
+    src: url(./Assets/fonts/SairaExtraCondensed-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*     
+    body{
+        margin: 0px;
+        padding:0;
+    } */
+
+
+.full-main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* ----sidebar----- */
+
+.left-sidebar {
+    vertical-align: top;
+    width: 25.01%;
+    height: 100%;
+    background-color: #BD5D38;
+    display: inline-block;
+    color: aliceblue;
+}
+/* ------Img------- */
+
+.left-sidebar>.Img {
+    background-image: url("./Assets/Images/female-img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(232, 230, 230);
+    outline: 3px outset rgb(232, 230, 230);
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.links {
+    margin: 10px auto;
+    font-family:Helvetica;
+    text-align: center;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+/* ------slicebar-hover------- */
+
+.links :hover {
+    color: #ebc4b5;
+
+}
+
+.links a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #db8563;
+}
+
+.links .link-1 {
+    text-decoration: none;
+}
+
+
+
+/* ----Contentbar----- */
+
+.right-contentbar {
+    vertical-align: top;
+    width: 74.50%;
+    max-height: 100%;
+    display: inline-block;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.About>.heading {
+    font-family: "Saira-Bold";
+    font-size: 4em;
+    padding: 145px 0px 6px 40px;
+    text-transform: uppercase;
+    color: black;
+    line-height: 0.9em;
+
+}
+ .About .span-1{
+    color:#BD5D38;
+ }
+.About .span-2 {
+    color: #BD5D38;
+
+}
+
+.About .address {
+    font-family: "SairaExtraCondensed-Regular";
+    font-size: 1.3em;
+    padding: 2px 10px 20px 40px;
+    line-height: 0.7em; 
+}
+
+.About .describe {
+    font-family: Helvetica;
+    font-size: 1em;
+    padding: 20px 40px;
+    text-align: left;
+}
+
+/* -----------icons---------- */
+
+.icon-1 i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-bottom: 90px;
+    padding: 8px;
+    font-size: 2em;
+    text-align: center;
+    color:#6C757D;
+
+}
+
+.icon-2 i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    padding: 8px;
+    font-size: 2em;
+    text-align: center;
+    color:#6C757D;
+}
+
+
+.icon-3 i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    padding: 8px;
+    font-size: 2em;
+    text-align: center;
+    color:#6C757D;
+}
+
+
+.icon-4 i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 8px;
+    font-size: 2em;
+    color:#6C757D;
+    text-align:center;
+    margin-bottom: 90px;
+}
+
+/* ------------------underline---------------- */
+.underline-1 {
+    padding-bottom: 50px;
+    margin-bottom: 90px;
+    border-bottom: 2px solid rgba(239, 228, 228, 0.327);
+}
+
+/* ------------------Experience--------------- */
+
+.Experience>.first-txt1 {
+    font-family:"Saira-Bold";
+    font-size: 3.8em;
+    margin: 35px;
+    padding:20px 5px;
+}
+
+.Experience .second-txt1 {
+    font-family:"Saira-Bold";
+    font-size: 2.5em;
+    line-height: 0.4em;
+    margin: 5px 35px;
+    padding: 5px;
+    display:inline-block;
+    
+}
+
+.Experience .right {
+    text-align: right;
+    display: inline-block;
+    margin-left:120px;
+    color: #BD5D38;
+}
+
+
+.Experience .second-txt3 {
+    font-family:"Saira-Bold";
+    font-size: 1.4em;    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+}
+
+.Experience p {
+    font-family:Helvetica;
+    font-size: 1em;
+    padding: 20px 1px;
+    text-align: left;
+    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+}
+
+.Experience .second-text2 {
+    font-family:"Saira-Bold";
+    font-size: 2.5em;
+    line-height: 0.5em;
+    margin: 65px 35px 5px 35px;
+    padding: 5px;
+    display:inline-block;
+}
+.second-text2 .right {
+    text-align: right;
+    display: inline-block;
+    color: #BD5D38;
+    
+}
+.Experience .second-text-3 {
+      font-family:"Saira-Bold";
+      font-size: 1.4em;
+      margin: 5px 35px;
+      padding: 5px;
+      color:#6C757D;
+}
+
+.Experience p {
+    font-family:Helvetica;
+    font-size: 1em;
+    padding: 20px 1px;
+    text-align: left;
+    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+}
+
+.Experience .Exp3-txt1 {
+    font-family:"Saira-Bold";
+    font-size: 2.5em;
+    line-height: 0.5em;
+    margin: 65px 35px 5px 35px;
+    padding: 5px;
+    display:inline-block;
+}
+
+.Exp3-txt1 .right {
+    text-align: right;
+    display: inline-block;
+    color: #BD5D38;
+    margin-left:120px;
+}
+
+.Experience .Exp3-txt2 {
+      font-family:"Saira-Bold";
+      font-size: 1.4em;
+
+      margin: 5px 35px;
+      padding: 5px;
+      color:#6C757D;
+}
+
+.Experience p {
+    font-family:Helvetica;
+    font-size: 1em;
+    padding: 20px 1px;
+    text-align: left;
+    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+}
+
+.Experience .Exp4-txt1 {
+    font-family:"Saira-Bold";
+    font-size: 2.5em;
+    line-height: 0.5em;
+    margin: 65px 35px 5px 35px;
+    padding: 5px;
+    display:inline-block;
+
+}
+
+.Exp4-txt1 .right {
+    text-align: right;
+    display: inline-block;
+    color: #BD5D38;
+    margin-left:120px;
+}
+
+.Experience .Exp4-txt2 {
+      font-family:"Saira-Bold";
+      font-size: 1.4em;
+      margin: 5px 35px;
+      padding: 5px;
+      color:#6C757D;
+}
+
+.Experience p {
+    font-family:Helvetica;
+    font-size: 1em;
+    padding: 20px 1px;
+    text-align: left;
+    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+}
+
+.underline-2 {
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(239, 228, 228, 0.327);
+}
+
+/* -----------Education--------------- */
+.Education >.Edu-head {
+    font-family:"Saira-Bold";
+    font-size: 3.8em;
+    margin: 35px;
+    padding:20px 5px;
+}
+
+
+
+
+.Education .Edu-second {
+    font-family:"Saira-Bold";
+    font-size: 2.4em;
+    margin: 30px 0px 5px 35px;
+    padding: 5px;
+    display:inline-block;
+    line-height: 0.9em;
+}
+
+.Education .right2 {
+    text-align: right;
+    display: inline-block;
+    color:#BD5D38;
+    margin-left:120px;
+}
+
+.Education .Edu-third {
+      font-family:"Saira-Bold";
+      font-size: 1.4em;
+      margin: 5px 35px;
+      padding: 5px;
+      color:#6C757D;
+}
+
+.Education p {
+    font-family:Helvetica;
+    font-size: 1.2em;
+    padding: 20px 1px;
+    text-align: left;
+    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+    padding-bottom:30px;
+
+}
+
+/* 
+----------Education2------------- */
+
+
+.Education .Edu2-second {
+     font-family:"Saira-Bold";
+     font-size: 2.4em;
+     margin: 15px 35px;
+     padding: 5px;
+    display: inline-block;
+     line-height: 0.9em;
+}
+
+.Education  .right2 {
+    text-align: right;
+    display: inline-block;
+    font-family:Helvetica;
+    color:#BD5D38;
+    margin-right:150px;
+}
+
+
+.Education .Edu2-third {
+     font-family:"Saira-Bold";
+     font-size: 1.4em;
+     margin: 5px 35px;
+     padding: 5px;
+     color:#6C757D;
+}
+
+.Education p {
+    font-family:Helvetica;
+    font-size: 1em;
+    padding: 20px 1px;
+    text-align: left;
+    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+}
+
+
+.underline-3 {
+    padding-bottom: 60px;
+    border-bottom: 2px solid rgba(239, 228, 228, 0.327);
+}
+
+/* -------skills---------- */
+
+.Skills .skill-txtHead {
+    font-family:"Saira-Bold";
+    font-size: 3.8em;
+    margin: 35px 10px 5px 35px;
+    padding:5px 5px;
+} 
+
+.Skills .skill-txt2 {
+      font-family:"Saira-Bold";
+      font-size: 1.4em;
+      margin: 5px 35px;
+      padding: 5px;
+      color:#6C757D;
+}
+
+/* --------------Skills-icons--------- */
+.logos .icon1 {
+    margin-left: 45px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon2 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon3 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon4 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon5 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+}
+
+.logos .icon6 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon6 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon7 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon8 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon9 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon10 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+.logos .icon11 {
+    margin-left: 45px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+
+}
+
+.logos .icon12 {
+    margin-left: 20px;
+    font-size: 2.5em;
+    color:#6C757D;
+
+}
+
+/* ---------------------------- */
+
+.Skills .skill-txt2 {
+      font-family:"Saira-Bold";
+      font-size: 1.4em;
+      margin: 5px 35px;
+      padding: 5px;
+      color:#8e8e8e;
+}
+/* ---------ticks------------- */
+.tick {
+    margin-left: 70px;
+    font-size: 1em;
+    display: block;
+    color:#6C757D;
+
+}
+.tick .check {
+    color:rgba(239, 228, 228, 0);
+}
+
+.underline-4 {
+    padding-bottom: 80px;
+    /* margin-bottom: 90px; */
+    border-bottom: 2px solid rgba(239, 228, 228, 0.327);
+}
+
+
+
+/* ---------------interest------------- */
+
+.interest .Interest-head {
+    font-family:"Saira-Bold";
+    font-size: 3.8em;
+    margin: 35px 10px 10px 35px;
+    padding:20px 5px;
+}
+
+.interest p {
+    font-family:Helvetica;
+    font-size: 1.3em;
+    padding: 20px 1px;
+    text-align: left;
+    margin: 5px 35px;
+    padding: 5px;
+    color:#6C757D;
+}
+
+.underline-5 {
+    padding-bottom: 90px;
+    margin-bottom: 90px;
+    border-bottom: 2px solid rgba(239, 228, 228, 0.327);
+}
+
+
+/* ------------AwardNCertificate------------- */
+.A-CHead {
+    font-family:"Saira-Bold";
+    font-size: 3.8em;
+
+    margin: 25px 10px 10px 35px;
+    padding:10px 5px;
+}
+
+.trophy1 {
+    /* padding:10px; */
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 1em;
+    font-family:Helvetica;
+    display: block;
+}
+
+.trophy i{
+    color:hsla(45, 100%, 65%, 0.715);
+    margin-left:19px;
+}
+
+.trophy {
+    margin-left: 27px;
+    font-size: 1em;
+    font-family:Helvetica;
+    display: block;
+    color:#6C757D;
+    
+
+}
+
+.underline-6 {
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
